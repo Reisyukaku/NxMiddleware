@@ -265,9 +265,7 @@ namespace BnTxx
                                 float NX = (RedPx   / 255f) * 2 - 1;
                                 float NY = (GreenPx / 255f) * 2 - 1;
 
-                                float NZ = (float)Math.Sqrt(1 - (NX * NX + NY * NY));
-
-                                Output[OOffset + 0] = Clamp((NZ + 1) * 0.5f);
+                                Output[OOffset + 0] = 0xff;
                                 Output[OOffset + 1] = Clamp((NY + 1) * 0.5f);
                                 Output[OOffset + 2] = Clamp((NX + 1) * 0.5f);
                                 Output[OOffset + 3] = 0xff;
@@ -289,10 +287,10 @@ namespace BnTxx
                                 byte RedPx   = Red  [(RedCh   >> Shift) & 7];
                                 byte GreenPx = Green[(GreenCh >> Shift) & 7];
 
-                                Output[OOffset + 0] = RedPx;
-                                Output[OOffset + 1] = RedPx;
+                                Output[OOffset + 0] = 0xff;
+                                Output[OOffset + 1] = GreenPx;
                                 Output[OOffset + 2] = RedPx;
-                                Output[OOffset + 3] = GreenPx;
+                                Output[OOffset + 3] = 0xff;
 
                                 TOffset += 4;
                             }
