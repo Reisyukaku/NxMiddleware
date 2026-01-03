@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnTxx", "BnTxx\BnTxx.csproj", "{9675F3DE-DF52-4750-9222-BA7707F1566E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutLibrary", "LayoutLibrary\LayoutLibrary.csproj", "{4C8B4DAF-F156-3B73-93EB-43F2EE7CC56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SarcLib", "SarcLib\SarcLib.csproj", "{A3E1C4F3-75D2-40CB-860F-CBCFE3FFE772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4C8B4DAF-F156-3B73-93EB-43F2EE7CC56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C8B4DAF-F156-3B73-93EB-43F2EE7CC56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C8B4DAF-F156-3B73-93EB-43F2EE7CC56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E1C4F3-75D2-40CB-860F-CBCFE3FFE772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E1C4F3-75D2-40CB-860F-CBCFE3FFE772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E1C4F3-75D2-40CB-860F-CBCFE3FFE772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E1C4F3-75D2-40CB-860F-CBCFE3FFE772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
