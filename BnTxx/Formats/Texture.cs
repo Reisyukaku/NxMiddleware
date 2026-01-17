@@ -44,6 +44,7 @@ namespace BnTxx.Formats
                 case TextureFormatType.BC3:
                 case TextureFormatType.BC4:
                 case TextureFormatType.BC5:
+                case TextureFormatType.BC6:
                 case TextureFormatType.BC7:
                 case TextureFormatType.ASTC4x4:
                     return (Width + 3) / 4;
@@ -86,6 +87,7 @@ namespace BnTxx.Formats
                 case TextureFormatType.BC3:
                 case TextureFormatType.BC4:
                 case TextureFormatType.BC5:
+                case TextureFormatType.BC6:
                 case TextureFormatType.BC7:
                 case TextureFormatType.ASTC4x4:
                 case TextureFormatType.ASTC5x4:
@@ -137,6 +139,7 @@ namespace BnTxx.Formats
                 case TextureFormatType.BC2:
                 case TextureFormatType.BC3:
                 case TextureFormatType.BC5:
+                case TextureFormatType.BC6:
                 case TextureFormatType.BC7:
                 case TextureFormatType.ASTC4x4:
                 case TextureFormatType.ASTC5x4:
