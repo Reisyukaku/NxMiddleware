@@ -13,11 +13,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.10" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <!-- BC6H decoding helpers. -->
-    <Compile Include="CSharpImageLibrary\DDS\BC6.cs" />
-    <Compile Include="CSharpImageLibrary\DDS\DX10_Helpers.cs" />
-  </ItemGroup>
-</Project>
+  </ItemGroup></Project>
